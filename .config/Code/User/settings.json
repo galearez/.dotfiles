@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "'Fira mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "window.titleBarStyle": "custom",
+    "telemetry.telemetryLevel": "crash",
+    "window.restoreWindows": "none",
+    "editor.rulers": [80],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "typescript.tsdk": "/home/josep/.nvm/versions/node/v16.14.2/lib/node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[rust]": {
+      "editor.defaultFormatter": "matklad.rust-analyzer"
+    },
+    "svelte.plugin.svelte.format.config.singleQuote": true,
+    "svelte.enable-ts-plugin": true
+}

@@ -1,6 +1,6 @@
 {
-  "workbench.colorTheme": "Monokai",
-  "editor.fontFamily": "'Fira mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.colorTheme": "Solarized Light",
+  "editor.fontFamily": "'Fira Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "window.titleBarStyle": "custom",
   "telemetry.telemetryLevel": "crash",
   "window.restoreWindows": "none",
@@ -22,5 +22,15 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.wordBasedSuggestions": false
+  "editor.wordBasedSuggestions": false,
+  "editor.minimap.enabled": false,
+  "html.format.wrapLineLength": 80,
+  "html.format.wrapAttributes": "aligned-multiple",
+  "editor.suggest.showWords": false,
+  "workbench.startupEditor": "none",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "prettier.trailingComma": "all",
+  "svelte.plugin.svelte.note-new-transformation": false
 }

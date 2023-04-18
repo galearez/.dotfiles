@@ -1,0 +1,28 @@
+theme = "andromeda"
+
+[editor]
+line-number = "relative"
+rulers = [80]
+color-modes = true
+undercurl = true
+auto-format = true
+
+[editor.file-picker]
+hidden = false
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+[editor.statusline]
+left = ["mode", "spacer", "version-control", "file-name", "file-modification-indicator"]
+right = ["diagnostics", "workspace-diagnostics", "selections", "spinner", "file-encoding", "position"]
+
+[editor.soft-wrap]
+enable = true

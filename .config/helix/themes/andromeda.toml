@@ -1,0 +1,168 @@
+# syntax highlighting
+"attribute" = "yellow"
+"type" = { fg = "yellow", modifiers = ["italic"] }
+# "type.builtin" = "yellow"
+# "type.enum" = "yellow"
+"constructor" = "yellow"
+"constant" = "red"
+# "constant.builtin" = "red"
+"constant.character" = "orange"
+"constant.numeric" = "orange"
+"string" = "green"
+"string.regexp" = "blue"
+"string.special" = "blue"
+"comment" = { fg = "comment", modifiers = ["italic"] }
+# "comment.line" = { fg = "comment", modifiers = ["italic"] }
+# "comment.block" = { fg = "comment", modifiers = ["italic"] }
+# "comment.block.documentation" = { fg = "comment", modifiers = ["italic"] }
+"variable" = "cyan"
+"variable.built-in" = "pink"
+"variable.parameter" = "cyan"
+# "variable.other" = "white"
+"variable.other.member" = "white"
+"label" = "orange"
+# "punctuation" = "white"
+"punctuation.delimiter" = "white"
+"punctuation.bracket" = "white"
+"punctuation.special" = "pink"
+"keyword" = "pink"
+# "keyword.control" = "pink"
+# "keyword.control.conditional" = "pink"
+# "keyword.control.repeat" = "pink"
+# "keyword.control.import" = "pink"
+# "keyword.control.return" = "pink"
+# "keyword.control.exception" = "pink"
+"keyword.operator" = "pink"
+# "keyword.directive" = "pink"
+# "keyword.function" = "pink"
+"keyword.storage" = "purple"
+# "keyword.storage.type" = "pink"
+# "keyword.storage.modifier" = "pink"
+"keyword.storage.modifier.ref" = "pink"
+"operator" = "pink"
+"function" = "yellow"
+# "function.builtin" = "yellow"
+# "function.method" = "yellow"
+# "function.macro" = "yellow"
+# "function.special" = "yellow"
+"tag" = "pink"
+"namespace" = "white"
+"special" = "pink"
+# "markup" = "text"
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+# "markup.heading.marker" = "blue"
+# "markup.heading.1" = "blue"
+# "markup.heading.2" = "blue"
+# "markup.heading.3" = "blue"
+# "markup.heading.4" = "blue"
+# "markup.heading.5" = "blue"
+# "markup.heading.6" = "blue"
+"markup.list" = "cyan"
+# "markup.list.unnumbered" = "cyan"
+# "markup.list.numbered" = "cyan"
+"markup.list.checked" = "white"
+"markup.list.unchecked" = "green"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+# "markup.link" = "cyan"
+"markup.link.url" = "cyan"
+"markup.link.text" = "yellow"
+"markup.link.label" = "green"
+"markup.quote" = "comment"
+# "markup.raw" = "text"
+"markup.raw.inline" = { bg = "foreground" }
+"markup.raw.block" = { bg = "foreground" }
+# "diff" = "white"
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+"diff.delta.moved" = "blue"
+
+# interface
+"markup.normal.completion" = ""
+"markup.normal.hover" = ""
+"markup.heading.completion" = ""
+"markup.heading.hover" = ""
+"markup.raw.inline.completion" = ""
+"markup.raw.inline.hover" = ""
+
+"ui.background" = { bg = "background" }
+"ui.background.separator" = "pink"
+"ui.cursor" = { bg = "comment", fg = "background" }
+# "ui.cursor.normal" = { bg = "background", fg = "highlight" }
+# "ui.cursor.insert" = { bg = "background", fg = "highlight" }
+# "ui.cursor.select" = { bg = "background", fg = "highlight" }
+"ui.cursor.match" = { fg = "highlight", modifiers = ["bold"] }
+"ui.cursor.primary" = { bg = "highlight", fg = "background" }
+# "ui.cursor.primary.normal" = { bg = "highlight", fg = "background" }
+# "ui.cursor.primary.insert" = { bg = "highlight", fg = "background" }
+# "ui.cursor.primary.select" = { bg = "highlight", fg = "background" }
+# "ui.debug" = { fg = "red" }
+"ui.debug.breakpoint" = { fg = "red" }
+"ui.debug.active" = { bg = "highlight", fg = "background" }
+# "ui.gutter" = ""
+# "ui.gutter.selected" = ""
+"ui.highlight.frameline" = { bg = "#746f77" }
+"ui.linenr" = "comment"
+"ui.linenr.selected" = { fg = "highlight", modifiers = ["bold"] }
+"ui.statusline" = { fg = "highlight", bg = "foreground" }
+"ui.statusline.inactive" = { fg = "comment", bg = "foreground" }
+"ui.statusline.normal" = { fg = "foreground", bg = "cyan", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "foreground", bg = "orange", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "foreground", bg = "purple", modifiers = ["bold"] }
+# "ui.statusline.separator" = ""
+"ui.popup" = { fg = "highlight", bg = "foreground" }
+# "ui.popup.info" = ""
+"ui.window" = { fg = "pink" }
+"ui.help" = { fg = "highlight", bg = "foreground" }
+"ui.text" = { fg = "highlight" }
+"ui.text.focus" = { fg = "cyan" }
+"ui.text.inactive" = "comment"
+# "ui.text.info" = { bg = "background", fg = "highlight" }
+"ui.virtual.ruler" = { bg = "foreground" }
+# "ui.virtual.whitespace" = ""
+# "ui.virtual.indent-guide" = ""
+"ui.virtual.inlay-hint" = { fg = "text", bg = "foreground", modifiers = ["italic"] }
+# "ui.virtual.inlay-hint.parameter" = ""
+# "ui.virtual.inlay-hint.type" = ""
+"ui.virtual.wrap" = { fg = "comment" }
+"ui.menu" = { fg = "highlight", bg = "foreground" }
+"ui.menu.selected" = { bg = "selection", fg = "cyan" }
+"ui.menu.scroll" = { bg = "foreground", fg = "highlight" }
+"ui.selection" = { bg = "foreground" }
+"ui.selection.primary" = { bg = "selection" }
+"ui.highlight" = "red"
+"ui.cursorline" = { fg = "highlight", bg = "foreground" }
+# "ui.cursorline.primary" = { fg = "highlight", bg = "foreground" }
+# "ui.cursorline.secondary" = { fg = "highlight", bg = "foreground" }
+# "ui.cursorcolumn.primary" = { fg = "highlight", bg = "foreground" }
+# "ui.cursorcolumn.secondary" = { fg = "highlight", bg = "foreground" }
+"warning" = "orange"
+"error" = "red"
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = "yellow"
+# "diagnostic" = ""
+"diagnostic.hint" = { underline = {color = "yellow", style="curl"} }
+"diagnostic.info" = { underline = {color = "blue", style="curl"} }
+"diagnostic.warning" = { underline = {color = "orange", style="curl"} }
+"diagnostic.error" = { underline = {color = "red", style="curl"} }
+
+[palette]
+background = "#23262e"
+foreground = "#2e323d"
+highlight = "#ffffff"
+
+comment = "#a0a1a7"
+text = "#d5ced9"
+selection = "#3d4352"
+
+cyan = "#00e8c6"
+orange = "#f39c12"
+yellow = "#ffe66d"
+pink = "#ff00aa"
+# hot_pink = "#f92672"
+purple = "#c74ded"
+blue = "#63a9ff"
+red = "#ee5d43"
+green = "#96e072"

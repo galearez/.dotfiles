@@ -1,13 +1,12 @@
 {
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Default Dark+ Experimental",
   "editor.fontFamily": "'Fira Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "window.titleBarStyle": "custom",
   "telemetry.telemetryLevel": "crash",
   "window.restoreWindows": "none",
   "editor.rulers": [80],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "typescript.tsdk": "/home/josep/.nvm/versions/node/v16.15.0/lib/node_modules/typescript/lib",
+  "typescript.tsdk": "/home/josep/.nvm/versions/node/v18.13.0/lib/node_modules/typescript/lib",
   "editor.formatOnSave": true,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
@@ -21,16 +20,14 @@
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "emmet.triggerExpansionOnTab": true,
-  "editor.acceptSuggestionOnEnter": "off",
   "editor.wordBasedSuggestions": false,
   "editor.minimap.enabled": false,
   "html.format.wrapLineLength": 80,
   "html.format.wrapAttributes": "aligned-multiple",
   "editor.suggest.showWords": false,
   "workbench.startupEditor": "none",
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
   "prettier.trailingComma": "all",
-  "svelte.plugin.svelte.note-new-transformation": false
+  "window.titleBarStyle": "custom",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.openRepositoryInParentFolders": "never"
 }

@@ -26,8 +26,19 @@ fi
 
 unset rc
 
+# Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 . "$HOME/.cargo/env"
-alias dotfiles='/usr/bin/git --git-dir=/home/josep/.dotfiles/ --work-tree=/home/josep'
+
+# DENO
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+# helix-editor
+export HELIX_RUNTIME="$HOME/src/helix/runtime"

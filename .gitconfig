@@ -4,4 +4,4 @@
 	name = Josep Galearez
 	email = 51718252+galearez@users.noreply.github.com
 [core]
-	editor = nano
+	editor = vi

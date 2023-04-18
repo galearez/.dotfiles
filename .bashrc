@@ -44,4 +44,4 @@ export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 # helix-editor
-export HELIX_RUNTIME="$HOME/src/helix/runtime"
+export HELIX_RUNTIME="$HOME/Documents/helix/runtime"

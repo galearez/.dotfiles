@@ -1,11 +1,17 @@
-theme = "andromeda"
+theme = "supernova"
 
 [editor]
+true-color = true
 line-number = "relative"
 rulers = [80]
 color-modes = true
 undercurl = true
 auto-format = true
+idle-timeout = 0
+completion-trigger-len = 1
+popup-border = "all"
+# here test
+# end-of-line-diagnostics = "hint"
 
 [editor.file-picker]
 hidden = false
@@ -22,7 +28,18 @@ end = "no_op"
 
 [editor.statusline]
 left = ["mode", "spacer", "version-control", "file-name", "file-modification-indicator"]
-right = ["diagnostics", "workspace-diagnostics", "selections", "spinner", "file-encoding", "position"]
+right = ["diagnostics", "workspace-diagnostics", "spinner", "file-encoding", "position", "total-line-numbers"]
 
 [editor.soft-wrap]
 enable = true
+
+[editor.smart-tab]
+enable = false
+
+[editor.indent-guides]
+render = true
+character = "▏" # Some characters that work well: "▏", "╎", "┆", "┊", "⸽"
+skip-levels = 0
+
+# [editor.inline-diagnostics]
+# cursor-line = "warning"
